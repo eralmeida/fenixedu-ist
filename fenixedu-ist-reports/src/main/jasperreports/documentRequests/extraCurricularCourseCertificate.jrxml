@@ -241,10 +241,8 @@
 				</textElement>
 				<textFieldExpression class="java.lang.String"><![CDATA["      " + $P{administrativeOfficeCoordinator}.getName() + ", " +
 				        $P{bundle}.getString("label.responsible") + " " + $P{bundle}.getString("label.for.the.female") + " " +
-				        $P{administrativeOfficeName}.toUpperCase() + " " +
-				        $P{bundle}.getString("label.of.the.male") + " " +
-				        $P{institutionName}.toUpperCase() + ", " +
-				        $P{universityName}.toUpperCase()]]>
+				        $P{administrativeOfficeName}.toUpperCase() + " " +  $P{bundle}.getString("label.of.the.male") + " " +
+				        $P{institutionName}.toUpperCase() + ", " +  $P{universityName}.toUpperCase() + "\n"]]>
 				</textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="false">
